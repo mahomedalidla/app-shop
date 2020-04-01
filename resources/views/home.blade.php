@@ -61,7 +61,7 @@
                         <tbody>
                             <tr>
                                 <td class="text-center">
-                                    <img src="{{ $detail->product->featured_image_url }}" height="50" >
+                                    <img src="{{ $detail->product->featured_image_url }}" height="50">
                                 </td>
 
                                 <td>

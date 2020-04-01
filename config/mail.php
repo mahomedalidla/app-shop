@@ -54,10 +54,11 @@ return [
     | used globally for all e-mails that are sent by your application.
     |
     */
+    // Correo de quien envia, y nombre de quien envia
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'Hola@CreeHaz.com'),
+        'name' => env('MAIL_FROM_NAME', 'CreeHaz'),
     ],
 
     /*
